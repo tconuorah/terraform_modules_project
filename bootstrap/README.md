@@ -1,1 +1,0 @@
-This module is a one-time setup to create the S3 bucket and DynamoDB table used by the main stack’s.backend.
