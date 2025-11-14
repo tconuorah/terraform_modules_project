@@ -1,7 +1,3 @@
-Here’s a clean and professional **README.md** for your project, based directly on the documentation you provided:
-
----
-
 # Terraform Modules Project – VPC, EC2, and RDS with Remote State Management
 
 ## Overview
