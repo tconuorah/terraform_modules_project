@@ -7,7 +7,7 @@ variable "region" {
 variable "bucket_name" {
   description = "Name of the S3 bucket used for remote Terraform state"
   type        = string
-  default = "tf-state-bucket"
+  default = "to-tf-state-bucket"
 }
 
 variable "dynamodb_table" {
