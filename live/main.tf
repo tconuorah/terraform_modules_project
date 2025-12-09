@@ -25,6 +25,6 @@ module "db" {
   db_username        = var.db_username
   db_password        = var.db_password
   db_name            = var.db_name
-  ec2_sg_id          = module.web_ec2.sg_id
+  ec2_mysql_id       = module.web_ec2.sg_id
   instance_class     = "db.t4g.micro"
 }
