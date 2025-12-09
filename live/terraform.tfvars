@@ -1,8 +1,8 @@
 region               = "us-east-2"
 az_count             = 2
-instance_type        = "t3.medium"
+instance_type        = "t3.micro"
 key_name             = "kp"
-allowed_ingress_cidr = "139.94.0.248/32" # local host Ip address which makes it the only computer to remote access ec2 instance
+allowed_ingress_cidr = "108.254.0.229/32" # local host Ip address which makes it the only computer to remote access ec2 instance
 
 
 # DB credentials (use environment variables or a secrets manager for real usage)

@@ -13,7 +13,7 @@ variable "db_name" {
   type    = string
   default = "appdb"
 }
-variable "ec2_sg_id" {
+variable "ec2_mysql_id" {
   type        = string
   description = "EC2 security group permitted to reach DB"
 }

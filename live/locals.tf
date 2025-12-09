@@ -1,6 +1,6 @@
 locals {
   env         = terraform.workspace
-  name_prefix = "to-${local.env}" # e.g., to-staging, to-prod
+  name_prefix = "${local.env}" # e.g., staging, prod
 
 
   # Per-env VPC CIDR examples (adjust as needed)
