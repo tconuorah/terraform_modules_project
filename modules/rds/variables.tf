@@ -19,5 +19,5 @@ variable "ec2_mysql_id" {
 }
 variable "instance_class" {
   type    = string
-  default = "db.t4g.micro"
+  default = "db.t4g.medium"
 }

@@ -32,6 +32,9 @@ tags = { Name = "${var.name}-db-mysql" }
 
 
 resource "aws_db_instance" "this" {
+username = var.db_username
+db_name = var.db_name
+password = var.db_password
 identifier        = "${var.name}-mysql"
 engine            = "mysql"
 engine_version    = "8.0"     # or a specific version like "8.0.39"
@@ -48,7 +51,7 @@ storage_encrypted = true
 backup_retention_period = 1
 apply_immediately = true
 auto_minor_version_upgrade = true
-performance_insights_enabled = true
+performance_insights_enabled = false
 monitoring_interval = 0
 tags = { Name = "${var.name}-mysql" }
 }
