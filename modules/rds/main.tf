@@ -11,11 +11,11 @@ vpc_id = var.vpc_id
 
 
 ingress {
-from_port = 5432
-to_port = 5432
+from_port = 3306
+to_port = 3306
 protocol = "tcp"
 security_groups = [var.ec2_mysql_id]
-description = "Allow PostgreSQL from EC2 mysql"
+description = "Allow from EC2 mysql"
 }
 
 
